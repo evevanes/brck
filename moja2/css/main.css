@@ -1,0 +1,124 @@
+body{
+	background-color: #FFFFFF;
+	
+}
+
+.panel{
+	height: 600px;
+	padding: 20px;
+	background-color: #000000;
+	color: #eeeeee;
+	width: 92.4%;
+	margin: 0 auto;
+	margin-top: 30px;
+	border-radius: 10px;
+
+}
+
+.main{
+	margin: 30px auto;
+	margin-left: 250px;
+	font-size: 15px;
+
+}
+
+.main li{
+	list-style: none;
+	padding: 30px;
+	bottom: 40px;
+	float: left;
+}
+
+.moja img{
+	width: 100px;
+	height: auto;
+
+}
+
+.text{
+	
+	margin: 380px auto 0;
+	padding: 30px;
+	font-size: 28px;
+	
+}
+
+
+.text h1{
+	text-align: center;
+	font-size: 45px;
+	line-height: 0.2;
+
+}
+
+.text h2{
+	text-align: center;
+    font-size: 19px;
+    letter-spacing: 7px;
+    font-weight: normal;
+    padding-bottom: 20px;
+
+	
+}
+hr{
+	 
+	 width:10%;
+}
+.one{
+	width: 80px;
+	height: 80px;
+	border-radius: 70px;
+	background-color: #ecbd2f;
+	margin: 0 auto;
+	position: relative;
+	top: 20px;
+	font-size:45px;
+}
+.fa-angle-down{
+	position: relative;
+	left:25px;
+	top:20px;
+
+}
+.container{
+	width: 1200px;
+	margin: 110px auto 0;
+	text-align: center;
+	
+}
+
+/*.parent h1{
+	line-height: 0.2;
+	font-weight: bold;
+	font-size: 25px;
+}*/
+.container h2{
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.title-header {
+	width:50%;
+  text-align: center;
+  font-size: 25px;
+  position: relative;
+  font-weight: bold;
+  margin:0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title-header span {
+  background-color: #fff;
+  padding: 0 0.3em;
+
+
+}
+.title-header:before {
+  content:"";
+  display: block;
+  position: absolute;
+  z-index:-1;
+  top: 50%;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
